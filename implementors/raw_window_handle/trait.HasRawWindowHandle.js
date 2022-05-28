@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["glfw"] = [{"text":"impl HasRawWindowHandle for <a class=\"struct\" href=\"glfw/struct.Window.html\" title=\"struct glfw::Window\">Window</a>","synthetic":false,"types":["glfw::Window"]},{"text":"impl HasRawWindowHandle for <a class=\"struct\" href=\"glfw/struct.RenderContext.html\" title=\"struct glfw::RenderContext\">RenderContext</a>","synthetic":false,"types":["glfw::RenderContext"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

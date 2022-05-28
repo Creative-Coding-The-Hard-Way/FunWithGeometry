@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["ImmediateModeGraphicsError",""]],"struct":[["Frame","All resources required to render a single frame’s vertices."],["Triangles","This type maintains Vulkan resources and buffers for rendering cpu-generated triangles each frame."]]});
