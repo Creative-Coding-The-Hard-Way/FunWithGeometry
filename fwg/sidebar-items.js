@@ -1,0 +1,1 @@
+initSidebarItems({"macro":[["gen_id","Generate a unique id for a component which needs it."]],"mod":[["demo","This module defines a standard “demo” application which includes some state."],["graphics",""]]});

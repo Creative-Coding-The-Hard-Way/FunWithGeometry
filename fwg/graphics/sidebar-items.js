@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["vec2",""],["vec3",""],["vec4",""]],"mod":[["asset_loader",""],["frame_pipeline",""],["glfw_window",""],["immediate_mode_graphics",""],["math",""],["multisample_renderpass",""],["timing",""],["ui",""],["vulkan",""],["vulkan_ext",""]],"type":[["Mat4",""],["Vec2",""],["Vec3",""],["Vec4",""]]});
