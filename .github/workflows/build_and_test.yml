@@ -28,3 +28,12 @@ jobs:
       run: cargo build --all --verbose
     - name: Run tests
       run: cargo test --verbose
+      
+    - name: Build Documentation
+      run: cargo doc --all
+      
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./target/doc
