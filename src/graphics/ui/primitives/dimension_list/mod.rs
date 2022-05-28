@@ -99,8 +99,7 @@ impl DimensionList {
     /// # Returns
     ///
     /// The remaining space available for other children. This can be used
-    /// when calling [`Widget::dimensions`] to compute a child element's
-    /// dimensions.
+    /// when computing a child element's dimensions.
     ///
     pub fn add_child_dimensions(
         &mut self,

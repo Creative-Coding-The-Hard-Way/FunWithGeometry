@@ -40,9 +40,9 @@ use crate::graphics::{
 /// # Layout
 ///
 /// Widgets have two methods which are used for laying out the UI. First,
-/// the parent widget is responsible for calling [`dimensions`] on each of its
-/// children. The parent is then allowed to call [`set_top_left_position`] to
-/// position each child on the screen.
+/// the parent widget is responsible for calling [`Self::dimensions`] on each
+/// of its children. The parent is then allowed to call
+/// [`Self::set_top_left_position`] to position each child on the screen.
 ///
 /// As such, the mental model is:
 ///   1. widgets control their own dimensions

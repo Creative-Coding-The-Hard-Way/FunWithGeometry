@@ -23,7 +23,7 @@ pub struct Font {
 
     /// When a font is constructed, all of the glyphs are rasterized into a
     /// single texture. This keeps track of which texture to use when
-    /// generating [`Tiles`] for rendering.
+    /// generating [`Tile`]s for rendering.
     texture_index: i32,
 
     /// When a font is constructed, all of the glyphs are rasterized into a

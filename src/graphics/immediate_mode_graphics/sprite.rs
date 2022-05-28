@@ -23,8 +23,8 @@ pub struct Sprite {
     /// The world-space depth to render the sprite at.
     pub depth: f32,
 
-    /// The sprite's texture. This is the index provided by the [`AssetLoader`]
-    /// when reading a texture.
+    /// The sprite's texture. This is the index provided by the
+    /// [`crate::graphics::asset_loader::AssetLoader`] when reading a texture.
     pub texture_index: i32,
 }
 
