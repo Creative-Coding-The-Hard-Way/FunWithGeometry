@@ -1,6 +1,6 @@
 use ::{anyhow::Result, std::sync::Arc};
 
-use crate::{
+use crate::graphics::{
     asset_loader::AssetLoader,
     glfw_window::GlfwWindow,
     immediate_mode_graphics::triangles::Frame,

@@ -4,14 +4,16 @@ use ::{
 };
 
 use crate::{
-    asset_loader::AssetLoader,
     demo::State,
-    frame_pipeline::{FrameError, FramePipeline},
-    glfw_window::GlfwWindow,
-    immediate_mode_graphics::triangles::Triangles,
-    multisample_renderpass::MultisampleRenderpass,
-    timing::FrameRateLimit,
-    vulkan::{self, Framebuffer, MemoryAllocator, RenderDevice},
+    graphics::{
+        asset_loader::AssetLoader,
+        frame_pipeline::{FrameError, FramePipeline},
+        glfw_window::GlfwWindow,
+        immediate_mode_graphics::triangles::Triangles,
+        multisample_renderpass::MultisampleRenderpass,
+        timing::FrameRateLimit,
+        vulkan::{self, Framebuffer, MemoryAllocator, RenderDevice},
+    },
 };
 
 pub struct Application<S: State> {

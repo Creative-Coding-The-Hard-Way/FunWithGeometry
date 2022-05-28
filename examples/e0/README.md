@@ -1,7 +1,9 @@
-# Renderers
+# Hello Segments
 
-This example renderes a multisampled triangle to the screen.
+This demo lets the user create line-segments and visualize their intersections!
 
+Note: Intersection testing is done brute-force and will become exceptionally
+      slow when there are an abundance of segments on the screen.
 
 ## Usage
 
