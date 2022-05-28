@@ -1,0 +1,29 @@
+[package]
+name = "ccthw"
+version = "0.1.0"
+authors = ["Bradley Lyman <lyman.brad3211@gmail.com>"]
+edition = "2018"
+
+[profile.dev]
+opt-level = 1               # Use slightly better optimizations
+
+[dependencies]
+anyhow = "1.0.44"
+flexi_logger = "0.17.1"
+log = "0.4.13"
+ash = { version = "0.35.1", features = ["linked"] }
+aquamarine = "*"
+nalgebra = "*"
+memoffset = "*"
+thiserror = "1.0.29"
+spin_sleep = "1.0.0"
+image = "0.24.0"
+ab_glyph = "*"
+
+[dependencies.glfw]
+version = "0.41.0"
+features = [ "vulkan" ]
+
+[dependencies.textwrap]
+features = ["terminal_size"]
+version = "0.13.2"
